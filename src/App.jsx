@@ -1,13 +1,16 @@
 import "./App.css";
-import Button from "@material-ui/core/Button";
+import { Button, Typography, Container } from "@mui/material";
 
 function App() {
   return (
-    <>
-      <Button variant="outlined" color="primary">
+    <Container>
+      <Typography variant="h2" gutterBottom>
+        Hello Material-UI
+      </Typography>
+      <Button variant="contained" color="primary">
         Click me
       </Button>
-    </>
+    </Container>
   );
 }
 
